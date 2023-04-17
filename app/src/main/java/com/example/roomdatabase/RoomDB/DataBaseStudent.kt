@@ -5,7 +5,7 @@ import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
 
-@Database(entities = [Student::class], version = 3)
+@Database(entities = [Student::class], version = 6)
  abstract class DataBaseStudent(): RoomDatabase() {
      abstract  fun studentdao():StudentDao
      companion object {
@@ -15,7 +15,7 @@ import androidx.room.RoomDatabase
              var intence = INSTECE
              synchronized(this) {
                  if (intence == null) {
-                     intence=Room.databaseBuilder(context, DataBaseStudent::class.java, "Mydatabase2")
+                     intence=Room.databaseBuilder(context, DataBaseStudent::class.java, "HemantDb1")
                          .build()
                      INSTECE = intence
                  }

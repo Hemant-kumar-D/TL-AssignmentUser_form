@@ -6,7 +6,9 @@ import androidx.room.PrimaryKey
 
 @Entity
 data class Student(
-   @PrimaryKey val SRNU:Int,
-   @ColumnInfo("FirstName") val Fname:String,
-    @ColumnInfo("LastName")val LastName:String,
-   @ColumnInfo("Mo.No") val Monu:String)
+   @PrimaryKey(autoGenerate = true) var SRNU:Int,
+   @ColumnInfo("Name") var Fname:String,
+    @ColumnInfo("Mo.number")var Mobile:String,
+  var Email:String,
+@ColumnInfo("Password") var Password:String,
+@ColumnInfo("Conform Password") var ConPassword:String)
