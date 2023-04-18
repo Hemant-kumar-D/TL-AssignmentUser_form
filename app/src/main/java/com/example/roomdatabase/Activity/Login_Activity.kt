@@ -1,7 +1,6 @@
 package com.example.roomdatabase.Activity
 
 import android.content.Intent
-import android.content.res.ColorStateList
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
@@ -12,8 +11,7 @@ import com.example.roomdatabase.Factory.Dbfactroy
 import com.example.roomdatabase.R
 import com.example.roomdatabase.Repojetry.DbRepojetry
 import com.example.roomdatabase.RoomDB.DataBaseStudent
-import com.example.roomdatabase.RoomDB.Student
-import com.example.roomdatabase.View_Model.Dbviewmodel
+import com.example.roomdatabase.ViewModel.Dbviewmodel
 import com.example.roomdatabase.databinding.ActivityLoginBinding
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers

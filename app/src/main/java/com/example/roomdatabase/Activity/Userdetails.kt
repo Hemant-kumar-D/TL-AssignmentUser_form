@@ -8,8 +8,7 @@ import com.example.roomdatabase.Factory.Dbfactroy
 import com.example.roomdatabase.R
 import com.example.roomdatabase.Repojetry.DbRepojetry
 import com.example.roomdatabase.RoomDB.DataBaseStudent
-import com.example.roomdatabase.View_Model.Dbviewmodel
-import com.example.roomdatabase.databinding.ActivityLoginBinding
+import com.example.roomdatabase.ViewModel.Dbviewmodel
 import com.example.roomdatabase.databinding.ActivityUserdetailsBinding
 
 class Userdetails : AppCompatActivity() {
