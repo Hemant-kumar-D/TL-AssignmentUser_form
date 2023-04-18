@@ -18,6 +18,7 @@ class Dbviewmodel(private val repogetry:DbRepojetry):ViewModel(){
 //    suspend fun insertdata(student: Student){
 //        repogetry.insersdata(student)
 //    }
+    // new
     suspend fun getdata(email:String,password:String):Boolean{
         return repogetry.getdata(email,password)
     }
