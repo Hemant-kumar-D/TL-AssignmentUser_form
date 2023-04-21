@@ -10,7 +10,7 @@ class fieldobservebal:BaseObservable() {
   var name:String=""
       set(value) {
         field=value
-          //notifyPropertyChanged()
+
          // notifyPropertyChanged()
 
     }
